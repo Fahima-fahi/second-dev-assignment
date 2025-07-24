@@ -137,6 +137,8 @@ nav li a {
   width: 366px;
   text-align: center;
   border-radius: 14px;
+  padding: 90px 70px;
+  background-repeat: no-repeat;
 }
 .plant-type-left .vertical-collage-2 {
   color: white;
@@ -144,6 +146,8 @@ nav li a {
   width: 366px;
   text-align: center;
   border-radius: 14px;
+  padding: 90px 70px;
+  background-repeat: no-repeat;
 }
 .plant-type-right {
   font-size: 1.25rem;
@@ -155,4 +159,55 @@ nav li a {
   width: 753px;
   text-align: center;
   border-radius: 22px;
+  padding: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+/* bunch styles */
+.brunch {
+  margin-top: 120px;
+  width: 1440px;
+  height: 533px;
+  text-align: center;
+  padding: 199px 130px;
+}
+.color-bunch {
+  color: #ffffff;
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+.input {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: white;
+  color: rgba(0, 0, 0, 0.5);
+}
+.btn-primary {
+  background: #e95a08;
+  color: #ffffff;
+  border: 5px;
+  border-radius: 0;
+}
+
+/* footer styles */
+.footer-point {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+.first-column {
+  gap: 20px;
+  color: rgba(0, 0, 0, 0.46);
+}
+.second-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: rgba(107, 114, 128, 1);
+}
+.third-column {
+  width: 216px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
 }
